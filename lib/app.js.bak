@@ -99,6 +99,12 @@ swig.setTag('pluginblock', function (str, line, parser, types, options, swig) {
   output += '}\n';
 
   return output;
+	/*
+  if (args[0] === 'foo') {
+    return compiler(content, parents, options, blockName) + '\n';
+  }
+  return '_output += "fallback";\n';
+  */
 }, true, false) 
 */
 

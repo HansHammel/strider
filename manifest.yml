@@ -1,0 +1,13 @@
+---
+applications:
+- name: strider
+  memory: 2048MB
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/buildpack-nodejs
+
+  services:
+  - strider-db
+  - mailgun
+
+  env:
+    NODE_ENV: production
