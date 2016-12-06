@@ -1,3 +1,6 @@
+#IDE backup files
+*.bak
+
 # IntelliJ IDEA project files
 .idea/*
 !.idea/codeStyleSettings.xml
