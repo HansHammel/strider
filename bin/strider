@@ -49,6 +49,7 @@ var cli = require('strider-cli')({
    */
   connect: function (cb) {
     var mongoose = require('mongoose');
+    //noinspection JSUnresolvedVariable
     var mongodbUrl = require('../lib/config').db_uri;
     console.log('Connecting to MongoDB URL: %s\n', mongodbUrl);
     mongoose.connect(mongodbUrl, cb);
@@ -57,7 +58,7 @@ var cli = require('strider-cli')({
    * Path to file to touch to restart strider
    */
   restartFile: function () {
-    var path = require('path')
+    var path = require('path');
     var dir = path.join(__dirname, '..');
     return path.join(dir, '.restart');
   }

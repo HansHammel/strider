@@ -20,3 +20,23 @@ insert_final_newline = false
 
 [*.{diff,md}]
 trim_trailing_whitespace = false
+
+[*.{js,css,less,sass,scss,coffee,ts}]
+charset = utf-8
+
+[Makefile]
+indent_style = tab
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
+
+[*.{pug|jade}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+insert_final_newline = false

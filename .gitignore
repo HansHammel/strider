@@ -4,6 +4,7 @@
 # IntelliJ IDEA project files
 .idea/*
 !.idea/codeStyleSettings.xml
+!.idea/jsLibraryMappings.xml
 
 # NodeJS dependencies
 node_modules/
@@ -37,3 +38,4 @@ config.sh
 *.swp
 test/last-shot
 /failures
+
