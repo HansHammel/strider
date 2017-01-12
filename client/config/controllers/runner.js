@@ -1,4 +1,4 @@
-'use strict';
+
 
 function RunnerController($scope, $element) {
   var name = $element.attr('id').split('-').slice(1).join('-');

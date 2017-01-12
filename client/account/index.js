@@ -1,4 +1,4 @@
-'use strict';
+
 
 var angular = require('angular');
 var AccountController = require('./controllers/account');

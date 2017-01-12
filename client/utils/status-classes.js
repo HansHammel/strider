@@ -1,4 +1,4 @@
-'use strict';
+
 
 module.exports = {
   passed: 'fa-check-circle success-text',

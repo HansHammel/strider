@@ -1,4 +1,4 @@
-'use strict';
+
 
 function ProviderController($scope) {
   $scope.config = $scope.providerConfig();

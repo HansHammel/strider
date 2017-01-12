@@ -1,4 +1,4 @@
-'use strict';
+
 
 var PHASES = require('./phases');
 

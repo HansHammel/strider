@@ -3,8 +3,10 @@ var BackChannel = require('../../lib/backchannel');
 var EventEmitter = require('events').EventEmitter;
 var sinon = require('sinon');
 var common = require('../../lib/common');
-
-var ObjectId = require('mongoose').Types.ObjectId;
+var mongoose = require('mongoose');
+var Promise = require('bluebird');
+mongoose.Promise = Promise;
+var ObjectId = mongoose.Types.ObjectId;
 
 describe('BackChannel', function () {
 

@@ -2,13 +2,14 @@ var Step = require('step')
   , request = require('request')
   , config = require('./test-config')
   , models = require('../lib/models')
-  , mongoose = require('mongoose')
   , mongodbUrl = process.env.STRIDER_TEST_DB || 'mongodb://localhost/stridercdtest'
   , async = require('async')
   , path = require('path')
   , fs = require('fs')
   , testUsers = require('./fixtures/users')(request);
-
+var mongoose = require('mongoose');
+var Promise = require('bluebird');
+mongoose.Promise = Promise;
 console.log('Setting up fixtures: %s', mongodbUrl);
 
 var importUsers = function (cb){

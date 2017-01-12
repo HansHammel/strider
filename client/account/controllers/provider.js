@@ -1,4 +1,4 @@
-'use strict';
+
 
 function ProviderController($scope, $element, $attrs) {
   var name = $attrs.id.split('-')[2];

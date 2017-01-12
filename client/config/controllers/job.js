@@ -1,4 +1,4 @@
-'use strict';
+
 
 function JobController($scope, $element) {
   var name = $element.attr('id').split('-').slice(1).join('-');

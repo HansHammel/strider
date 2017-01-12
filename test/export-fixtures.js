@@ -1,10 +1,11 @@
 
 var models = require('../lib/models')
-  , mongoose = require('mongoose')
   , mongodbUrl = process.env.STRIDER_TEST_DB || 'mongodb://localhost/strider-foss'
   , fs = require('fs')
   , async = require('async');
-
+var mongoose = require('mongoose');
+var Promise = require('bluebird');
+mongoose.Promise = Promise;
 mongoose.connect(mongodbUrl);
 
 function upFixture(name, items, done) {

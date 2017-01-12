@@ -1,4 +1,4 @@
-'use strict';
+
 
 module.exports = function ($scope, $sce) {
   $scope.message = null;

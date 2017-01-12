@@ -1,4 +1,4 @@
-'use strict';
+
 
 module.exports = function ($locationProvider, $routeProvider) {
   var one = {
@@ -16,5 +16,8 @@ module.exports = function ($locationProvider, $routeProvider) {
   });
 
   // route.otherwise({redirectTo: '/'});
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
 };
