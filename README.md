@@ -1,7 +1,16 @@
 # ![Strider][logo]
 
-[![NPM][npm-badge-img]][npm-badge-link] [![Code Climate][cc-badge]][cc-badge-link] [![Dependency Status][david-badge]][david-badge-link] [![Build Status][travis-badge]][travis-badge-link]  
-[![Gitter][gitter-badge]][gitter-badge-link]
+[![Build Status](https://secure.travis-ci.org/HansHammel/strider.png?branch=master)](http://travis-ci.org/HansHammel/strider)
+[![Inline docs](http://inch-ci.org/github/HansHammel/strider.svg?branch=master)](http://inch-ci.org/github/HansHammel/strider)
+[![star this repo](http://githubbadges.com/star.svg?user=HansHammel&repo=strider&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/strider)
+[![fork this repo](http://githubbadges.com/fork.svg?user=HansHammel&repo=strider&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/strider/fork)
+[![david dependency](https://img.shields.io/david/HansHammel/strider.svg)](https://david-dm.org/HansHammel/strider)
+[![david devDependency](https://img.shields.io/david/dev/HansHammel/strider.svg)](https://david-dm.org/HansHammel/strider)
+[![david optionalDependency](https://img.shields.io/david/optional/HansHammel/strider.svg)](https://david-dm.org/HansHammel/strider)
+[![david peerDependency](https://img.shields.io/david/peer/HansHammel/strider.svg)](https://david-dm.org/HansHammel/strider)
+[![npms score](https://badges.npms.io/strider.svg)](https://www.npmjs.com/package/strider)
+[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/strider.svg)](https://snyk.io/test/github/HansHammel/strider)
+
 
 ---
 
