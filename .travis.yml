@@ -34,7 +34,7 @@ before_script:
   - npm install -g grunt-cli
   - npm install -g bower
   - #echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-  - #bower install -f  
+  - bower install -f  
   
 after_success:
   - #npm run coveralls
