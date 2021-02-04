@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - strider-email-notifier > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-email-notifier > async > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - async > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-simple-runner > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-aws-codedeploy > async > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-bitbucket > async > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-email-notifier > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-email-notifier > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
+    - strider-email-notifier > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:01:53.147Z'
